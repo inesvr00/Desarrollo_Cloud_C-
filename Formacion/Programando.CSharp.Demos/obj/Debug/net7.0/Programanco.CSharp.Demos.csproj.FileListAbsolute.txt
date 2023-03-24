@@ -1,0 +1,15 @@
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Programanco.CSharp.Demos.exe
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Programanco.CSharp.Demos.deps.json
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Programanco.CSharp.Demos.runtimeconfig.json
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Programanco.CSharp.Demos.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Programanco.CSharp.Demos.pdb
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.csproj.AssemblyReference.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.AssemblyInfoInputs.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.AssemblyInfo.cs
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.csproj.CoreCompileInputs.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\refint\Programanco.CSharp.Demos.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.pdb
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.genruntimeconfig.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\ref\Programanco.CSharp.Demos.dll
