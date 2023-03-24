@@ -1,0 +1,55 @@
+Creamos una solución llamada -> Morfeus Solution
+
+Creamos un proyecto de consola llamdo -> ConsolaTest1
+
+Creamos un proyecto Web MVC llamdo -> WebApp-Frontend1
+
+Creamos un libreria de clases llamada -> Morfeus.Core
+
+Añadimos todos los proyectos a la solución
+
+
+
+mkdir solucion
+
+cd solucion
+
+dotnet new sln -n "Morfeus Solution" -o . 
+
+dotnet new console -n "ConsolaTest1" -o .\ConsolaTest1
+
+dotnet new mvc -n "WebApp-Frontend1" -o .\WebAppFrontend1
+
+dotnet new classlib -n "Morfeus.Core" -o .\MorfeusCore
+
+dotnet sln add ConsolaTest1
+
+dotnet sln add WebAppFrontend1
+
+dotnet sln add MorfeusCore
+
+dotnet sln add (ls -r **/*.csproj)  
+
+dotnet sln add ConsolaTest1/ConsolaTest1.csproj WebAppFrontend1/WebApp-Frontend1.csproj MorfeusCore/Morfeus.Core.csproj
+
+La forma correcta de llamar a un proyecto es Morfeus.Core, Morfeus.Api, Morfeus.Mobile.App.Admin...
+
+dotnet new
+dotnet restor
+dotnet build
+dotnet run
+dotnet install package 
+
+dotnet new sln
+dotnet sln list
+dotnet sln add/remove
+
+nombre de solución, se puede poner con espacios
+nombre de proyectos, no deben tener espacios
+							Morfeus Solutions
+							MorfeusSolutions
+							Morfeus.Core
+							Morfeus.Web.Frontend
+							Morfeus.Api
+							Morfeus.Mobile.App.Admin
+							Morfeus.Mobile.App.Customer
