@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Inés\\Cloud_eoi\\Desarrollo_Cloud_C\\Formacion\\Programando.CSharp.Demos\\Programanco.CSharp.Demos.csproj",
+      "projectUniqueName": "C:\\Users\\Inés\\Cloud_eoi\\Desarrollo_Cloud_C_Sharp\\Formacion\\Programando.CSharp.Demos\\Programanco.CSharp.Demos.csproj",
       "projectName": "Programanco.CSharp.Demos",
-      "projectPath": "C:\\Users\\Inés\\Cloud_eoi\\Desarrollo_Cloud_C\\Formacion\\Programando.CSharp.Demos\\Programanco.CSharp.Demos.csproj",
+      "projectPath": "C:\\Users\\Inés\\Cloud_eoi\\Desarrollo_Cloud_C_Sharp\\Formacion\\Programando.CSharp.Demos\\Programanco.CSharp.Demos.csproj",
       "packagesPath": "C:\\Users\\Inés\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Inés\\Cloud_eoi\\Desarrollo_Cloud_C\\Formacion\\Programando.CSharp.Demos\\obj\\",
+      "outputPath": "C:\\Users\\Inés\\Cloud_eoi\\Desarrollo_Cloud_C_Sharp\\Formacion\\Programando.CSharp.Demos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Inés\\AppData\\Roaming\\NuGet\\NuGet.Config"
