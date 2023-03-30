@@ -28,3 +28,15 @@ C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.D
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Programanco.CSharp.Demos.pdb
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.genruntimeconfig.cache
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\ref\Programanco.CSharp.Demos.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\obj\Debug\net7.0\Programanco.CSharp.Demos.csproj.CopyComplete
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.Extensions.Logging.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Demos\bin\Debug\net7.0\Microsoft.Extensions.Primitives.dll

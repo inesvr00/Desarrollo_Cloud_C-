@@ -38,4 +38,8 @@
                   No se muestran los warnings con código CS0168, CS0219, ...
                   -->
       </PropertyGroup>
+      <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.4" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+      </ItemGroup>
 </Project>
