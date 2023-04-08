@@ -1,0 +1,22 @@
+{
+  "profiles": {
+    "Programando.CSharp.Ejercicios.EjercicioLINQ": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:49187;http://localhost:49188"
+    },
+    "WSL": {
+      "commandName": "WSL2",
+      "launchBrowser": true,
+      "launchUrl": "https://localhost:49187",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:49187;http://localhost:49188"
+      },
+      "distributionName": ""
+    }
+  }
+}

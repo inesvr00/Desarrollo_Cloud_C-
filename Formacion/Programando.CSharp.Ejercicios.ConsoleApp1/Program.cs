@@ -11,60 +11,121 @@ namespace Programando.CSharp.Ejercicios.ConsoleApp1
         static void Main(string[] args)
         {
             Console.Clear();
-            Ejercicios();
+            EjerciciosExtra();
         }
 
         static void ConsultasBasicas()
-            {
-            //T-SQL: SELECT * FROM dbo.ListaProductos
+        {
+            // T-SQL: SELECT * FROM dbo.ListaProductos
 
             // Métodos de LINQ
             var r1a = DataLists.ListaProductos
-                .Select(r => r).ToArray();
+                .Select(r => r);
 
             // Expresión LINQ
             var r1b = from r in DataLists.ListaProductos
                       select r;
 
-            foreach(Producto item in r1a) Console.WriteLine($"{item.Id} {item.Descripcion}");
+            foreach (Producto item in r1b) Console.WriteLine($"{item.Id} {item.Descripcion}");
+            Console.WriteLine(Environment.NewLine);
+
+
+            // T-SQL: SELECT Nombre FROM dbo.ListaClientes
 
             // Métodos de LINQ
-
             var r2a = DataLists.ListaClientes
-
                 .Select(r => r.Nombre);
 
-
-
             // Expresión LINQ
-
             var r2b = from r in DataLists.ListaClientes
                       select r.Nombre;
 
             foreach (string item in r2b) Console.WriteLine($"{item}");
+            Console.WriteLine(Environment.NewLine);
 
             // T-SQL: SELECT Id, Nombre FROM dbo.ListaClientes
 
             // Métodos de LINQ
             var r3a = DataLists.ListaClientes
-                .Select (r => r.Nombre); // AQUÍ ME FALTAN COSAS
+                .Select(r => new { r.Id, r.Nombre });
 
+            // Expresión LINQ
+            var r3b = from r in DataLists.ListaClientes
+                      select new { r.Id, r.Nombre };
 
-            //T-SQL: SELECT Descripcion FROM dbo.ListaProductos WHERE precio < 0.90
+            foreach (var item in r3b) Console.WriteLine($"{item.Id} {item.Nombre}");
+            Console.WriteLine(Environment.NewLine);
 
-            //Métodos de LINQ
+            // T-SQL: SELECT Id AS Code, Nombre AS NombreCompleto FROM dbo.ListaClientes
+
+            var r3c = DataLists.ListaClientes
+                .Select(r => new { Code = r.Id, NombreCompleto = r.Nombre });
+
+            foreach (var item in r3c) Console.WriteLine($"{item.Code} {item.NombreCompleto}");
+            Console.WriteLine(Environment.NewLine);
+
+            // T-SQL: SELECT Descripcion FROM dbo.ListaProductos WHERE precio < 0.90
+
+            // Métodos de LINQ
             var r4a = DataLists.ListaProductos
                 .Where(r => r.Precio < 0.90)
                 .Select(r => r.Descripcion);
 
-            foreach (var item in r4a) Console.WriteLine($"{item}");
+            // Expresión LINQ
+            var r4b = from r in DataLists.ListaProductos
+                      where r.Precio < 0.90
+                      select r.Descripcion;
+
+            foreach (var item in r4b) Console.WriteLine($"{item}");
             Console.WriteLine(Environment.NewLine);
 
-            // Me falta lo de filtración
+            // T-SQL: SELECT Descripcion FROM dbo.ListaProductos WHERE precio < 0.90 ORDER BY Descripcion
 
-            // Otros Ejemplos
 
-            // Endswith
+            // Métodos de LINQ
+            var r5a = DataLists.ListaProductos              //Ordenando DB
+                .Where(r => r.Precio < 0.90)
+                .OrderBy(r => r.Descripcion)
+                .Select(r => r.Descripcion);
+
+            var r5c = DataLists.ListaProductos              //Ordenando DB
+                .Where(r => r.Precio < 0.90)
+                .OrderByDescending(r => r.Descripcion)
+                .Select(r => r.Descripcion);
+
+            var r5e = DataLists.ListaProductos              //Ordernando PC
+                .Where(r => r.Precio < 0.90)
+                .Select(r => r.Descripcion)
+                .OrderBy(r => r);
+
+            // Expresión LINQ
+            var r5b = from r in DataLists.ListaProductos
+                      where r.Precio < 0.90
+                      orderby r.Descripcion
+                      select r.Descripcion;
+
+            var r5d = from r in DataLists.ListaProductos
+                      where r.Precio < 0.90
+                      orderby r.Descripcion descending
+                      select r.Descripcion;
+
+            var r5f = (from r in DataLists.ListaProductos
+                       where r.Precio < 0.90
+                       select r.Descripcion).ToList().OrderBy(r => r);
+
+
+            foreach (var item in r5d) Console.WriteLine($"{item}");
+            Console.WriteLine(Environment.NewLine);
+        }
+
+        static void OtrosEjemplos()
+        {
+            ////////////////////////////////////////////////////////////
+            // CONTIENE, COMIENZA O FINALIZA
+            ////////////////////////////////////////////////////////////
+
+            //	Contains -> Contiene; StartsWith -> Comienza; EndsWith -> Finaliza
+
             var r6a = DataLists.ListaProductos
                 .Where(r => r.Descripcion.ToLower().Contains("boli"))
                 .Select(r => r);
@@ -75,10 +136,40 @@ namespace Programando.CSharp.Ejercicios.ConsoleApp1
 
             var producto = DataLists.ListaProductos
                 .Where(r => r.Id == 4)
-                .OrderBy(r => r.Descripcion)
                 .FirstOrDefault();
 
-            // Paginación en DB
+
+
+            ////////////////////////////////////////////////////////////
+            // AGREGACIÓN
+            ////////////////////////////////////////////////////////////
+
+            // Count -> Cuenta los elmentos
+            // Distinct -> Valor distinto
+            // Max -> valor máximo;
+            // Min -> valor minimo
+            // Sum -> suma de valores;
+            // Average -> media de los valores
+            // Aggregate -> Aplicar formula o métod de Agregación
+
+            var r7a = DataLists.ListaProductos
+                .Where(r => r.Precio < 0.90)
+                .Count();
+
+            var r7b = DataLists.ListaProductos
+                .Count(r => r.Precio < 0.90);
+
+            var r7c = (from r in DataLists.ListaProductos
+                       where r.Precio < 0.90
+                       select r.Descripcion).Count();
+
+
+
+            ////////////////////////////////////////////////////////////
+            // PAGINACIÓN
+            ////////////////////////////////////////////////////////////
+
+            // Páginación en DB
             var lista = DataLists.ListaProductos
                 .OrderBy(r => r.Descripcion)
                 .Skip(5)
@@ -91,25 +182,6 @@ namespace Programando.CSharp.Ejercicios.ConsoleApp1
                 .Select(r => r)
                 .Skip(5)
                 .Take(5);
-                
-
-
-            // Count -> Cuenta los elementos
-            // Distinct -> Valor distinto
-            // Max -> valor máximo; Min -> valor mínimo
-            // Sum -> suma de valores; Average -> media de los valores
-            // Aggregate -> Aplicar fórmula o método de Agregación
-
-            var r7a = DataLists.ListaProductos
-                  .Where(r => r.Precio < 0.90)
-                  .Count();
-
-            var r7b = DataLists.ListaProductos
-                .Count(r => r.Precio < 0.90);
-
-            var r7c = (from r in DataLists.ListaProductos
-                       where r.Precio < 0.90
-                       select r.Descripcion).Count();
         }
 
         static void Ejercicios()
@@ -206,6 +278,74 @@ namespace Programando.CSharp.Ejercicios.ConsoleApp1
 
         }
             
+        static void EjerciciosExtra()
+        {
+            /////////////////////////////////////////////////////////////////////////////////
+            // Clientes nacidos entre 1980 y 1990
+            /////////////////////////////////////////////////////////////////////////////////
+
+
+            var clientes_entre_1980_1990 = DataLists.ListaClientes
+                .Where(cliente => (cliente.FechaNac.Year >= 1980 && cliente.FechaNac.Year <= 1990));
+
+            Console.WriteLine($"Clientes nacidos entre 1980 y 1990");
+            foreach (var cliente in clientes_entre_1980_1990) Console.WriteLine($"Nombre: {cliente.Nombre} - Id: {cliente.Id} - Fecha de Nacimiento: {cliente.FechaNac} \n \n");
+
+
+
+            /////////////////////////////////////////////////////////////////////////////////
+            // Producto con el precio más alto
+            /////////////////////////////////////////////////////////////////////////////////
+
+            var producto_mas_caro = DataLists.ListaProductos.OrderByDescending
+                (r => r.Precio).First();
+
+            Console.WriteLine($"El producto más caro es: {producto_mas_caro.Descripcion}, con un precio de {producto_mas_caro.Precio} €. \n \n");
+
+
+            // SELECT MAX(Precio) FROM ListaProductos
+
+
+            // SELECT TOP(1) * FROM ListaProductos WHERE Precio = 12.54
+
+
+            // SELECT * FROM ListaProductos WHERE Precio = (SELECT MAX(Precio) FROM ListaProductos)
+
+
+            // SELECT * FROM ListaProductos WHERE Precio = 12.54
+
+
+
+            /////////////////////////////////////////////////////////////////////////////////
+            // Precio medio de todos los productos
+            /////////////////////////////////////////////////////////////////////////////////
+
+            decimal precio_medio_productos = (decimal)DataLists.ListaProductos.Average(p => p.Precio);
+
+            Console.WriteLine($"El precio medio de todos los productos es: {Math.Round(precio_medio_productos, 2)} € \n \n");
+
+
+            // SELECT AVG(Precio) FROM ListaProductos
+
+
+
+            /////////////////////////////////////////////////////////////////////////////////
+            // Productos con un precio inferior a la media
+            /////////////////////////////////////////////////////////////////////////////////
+
+            var mediaPrecios = DataLists.ListaProductos.Average(p => p.Precio);
+            var productosPrecioMenorMedia = from r in DataLists.ListaProductos
+                                            where r.Precio < mediaPrecios
+                                            select r;
+            Console.WriteLine($"A continuación se muestran los productos con un precio inferior a la media:");
+
+            foreach (var producto in productosPrecioMenorMedia) Console.WriteLine($"Nombre: {producto.Descripcion} - ID: {producto.Id} - Precio: {producto.Precio} € \n");
             
+
+            // SELECT * FROM ListaProductos WHERE Precio = (SELECT AVG(Precio) FROM ListaProductos)
+
+
+            // SELECT * FROM ListaProductos WHERE Precio = 2.54
+        }
     }
 }

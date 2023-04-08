@@ -9,9 +9,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Programando.CSharp.Ejercici
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programando.CSharp.Ejercicios.ConsoleApp1", "Programando.CSharp.Ejercicios.ConsoleApp1\Programando.CSharp.Ejercicios.ConsoleApp1.csproj", "{85D13BFF-30EB-403C-84A3-DBF3A2E832AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programando.CSharp.ConsoleEF", "Programando.CSharp.ConsoleEF\Programando.CSharp.ConsoleEF.csproj", "{B1334FEE-5607-4E42-ACAE-89E999EE7702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programando.CSharp.ConsoleEF", "Programando.CSharp.ConsoleEF\Programando.CSharp.ConsoleEF.csproj", "{B1334FEE-5607-4E42-ACAE-89E999EE7702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programando.CSharp.WebApplication2", "Programando.CSharp.WebApplication2\Programando.CSharp.WebApplication2.csproj", "{9FCF5118-FD18-4C91-BCC0-1987FB41E9F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Programando.CSharp.WebApplication2", "Programando.CSharp.WebApplication2\Programando.CSharp.WebApplication2.csproj", "{9FCF5118-FD18-4C91-BCC0-1987FB41E9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programando.CSharp.Ejercicios.LINQ", "Programando.CSharp.Ejercicios.LINQ\Programando.CSharp.Ejercicios.LINQ.csproj", "{44FC4C7D-FDFC-4B11-B9ED-92680754D27A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +37,17 @@ Global
 		{9FCF5118-FD18-4C91-BCC0-1987FB41E9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FCF5118-FD18-4C91-BCC0-1987FB41E9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FCF5118-FD18-4C91-BCC0-1987FB41E9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44FC4C7D-FDFC-4B11-B9ED-92680754D27A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44FC4C7D-FDFC-4B11-B9ED-92680754D27A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44FC4C7D-FDFC-4B11-B9ED-92680754D27A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44FC4C7D-FDFC-4B11-B9ED-92680754D27A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{85D13BFF-30EB-403C-84A3-DBF3A2E832AC} = {FA53EE31-5CF5-4541-BF85-69A13B0CF144}
+		{44FC4C7D-FDFC-4B11-B9ED-92680754D27A} = {FA53EE31-5CF5-4541-BF85-69A13B0CF144}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B94FAAF5-3C10-4323-BA92-72284A09CC52}

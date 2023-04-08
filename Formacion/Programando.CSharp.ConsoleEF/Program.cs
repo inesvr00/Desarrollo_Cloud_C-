@@ -108,7 +108,7 @@ namespace Programando.CSharp.ConsoleEF
             Console.ReadKey();
 
             // DELETE, eliminar un cliente
-            var customer = context.Customers
+            var customer3 = context.Customers
                 .Where(r => r.CustomerID == "DEMO47")
                 .FirstOrDefault();
 
