@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Programando.CSharp.WebAPI1.props" />
+</Project>

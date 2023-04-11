@@ -12,9 +12,17 @@ build_property.RootNamespace = Programando.CSharp.WebApplication2
 build_property.ProjectDir = C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.WebApplication2\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
-build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.WebApplication2
 build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Empleados/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbGVhZG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
@@ -22,6 +30,34 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/NewFolder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3Rm9sZGVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Productos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Products/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Products/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Products/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Products/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Inés/Cloud_eoi/Desarrollo_Cloud_C_Sharp/Formacion/Programando.CSharp.WebApplication2/Views/Shared/Error.cshtml]

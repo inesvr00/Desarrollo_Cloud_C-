@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Programando.CSharp.WebApplication2.Models;
+using Programando.CSharp.WebApplication2.Model;
 using System.Diagnostics;
 
 namespace Programando.CSharp.WebApplication2.Controllers
