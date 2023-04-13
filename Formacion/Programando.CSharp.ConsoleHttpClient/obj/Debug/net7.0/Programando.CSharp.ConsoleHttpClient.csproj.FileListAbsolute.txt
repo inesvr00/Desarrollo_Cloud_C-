@@ -80,3 +80,5 @@ C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.C
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.ConsoleHttpClient\obj\Debug\net7.0\Programando.CSharp.ConsoleHttpClient.pdb
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.ConsoleHttpClient\obj\Debug\net7.0\Programando.CSharp.ConsoleHttpClient.genruntimeconfig.cache
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.ConsoleHttpClient\obj\Debug\net7.0\ref\Programando.CSharp.ConsoleHttpClient.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.ConsoleHttpClient\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.ConsoleHttpClient\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

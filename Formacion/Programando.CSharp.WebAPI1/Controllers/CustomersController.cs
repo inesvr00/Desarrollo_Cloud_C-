@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Programando.CSharp.WebAPI1.Model;
 
-namespace Programando.CSharp.WebAPI1
+namespace Programando.CSharp.WebAPI1.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -24,32 +24,20 @@ namespace Programando.CSharp.WebAPI1
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Customer>>> GetCustomers()
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
-
-          var customer = await _context.Customers.FindAsync(id);
-            if (customer == null) return NotFound();
-            else return customer;
+            if (_context.Customers == null) return NotFound();
+            else return await _context.Customers.ToListAsync();
         }
 
         // GET: api/Customers/5
         [HttpGet("{id}")]
         public async Task<ActionResult<Customer>> GetCustomer(string id)
         {
-          if (_context.Customers == null)
-          {
-              return NotFound();
-          }
+            if (_context.Customers == null) return NotFound();
+
             var customer = await _context.Customers.FindAsync(id);
 
-            if (customer == null)
-            {
-                return NotFound();
-            }
-
-            return customer;
+            if (customer == null) return NotFound();
+            else return customer;
         }
 
         // PUT: api/Customers/5
@@ -88,10 +76,10 @@ namespace Programando.CSharp.WebAPI1
         [HttpPost]
         public async Task<ActionResult<Customer>> PostCustomer(Customer customer)
         {
-          if (_context.Customers == null)
-          {
-              return Problem("Entity set 'ModelNorthwind.Customers'  is null.");
-          }
+            if (_context.Customers == null)
+            {
+                return Problem("Entity set 'ModelNorthwind.Customers'  is null.");
+            }
             _context.Customers.Add(customer);
             try
             {

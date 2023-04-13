@@ -1,0 +1,15 @@
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\bin\Debug\net7.0\Programando.CSharp.Herencia.exe
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\bin\Debug\net7.0\Programando.CSharp.Herencia.deps.json
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\bin\Debug\net7.0\Programando.CSharp.Herencia.runtimeconfig.json
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\bin\Debug\net7.0\Programando.CSharp.Herencia.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\bin\Debug\net7.0\Programando.CSharp.Herencia.pdb
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\Programando.CSharp.Herencia.csproj.AssemblyReference.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\Programando.CSharp.Herencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\Programando.CSharp.Herencia.AssemblyInfoInputs.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\Programando.CSharp.Herencia.AssemblyInfo.cs
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\Programando.CSharp.Herencia.csproj.CoreCompileInputs.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\Programando.CSharp.Herencia.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\refint\Programando.CSharp.Herencia.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\Programando.CSharp.Herencia.pdb
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\Programando.CSharp.Herencia.genruntimeconfig.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Herencia\obj\Debug\net7.0\ref\Programando.CSharp.Herencia.dll

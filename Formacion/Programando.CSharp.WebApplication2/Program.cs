@@ -14,6 +14,8 @@ builder.Services.AddControllersWithViews()
 builder.Services.AddDbContext<ModelNorthwind>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("Northwind")));
 
+builder.Services.AddHttpClient();
+
 var app = builder.Build();
 
 ///////////////////////////////////////

@@ -1,0 +1,15 @@
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\bin\Debug\net7.0\Programando.CSharp.Delegate.exe
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\bin\Debug\net7.0\Programando.CSharp.Delegate.deps.json
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\bin\Debug\net7.0\Programando.CSharp.Delegate.runtimeconfig.json
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\bin\Debug\net7.0\Programando.CSharp.Delegate.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\bin\Debug\net7.0\Programando.CSharp.Delegate.pdb
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\Programando.CSharp.Delegate.csproj.AssemblyReference.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\Programando.CSharp.Delegate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\Programando.CSharp.Delegate.AssemblyInfoInputs.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\Programando.CSharp.Delegate.AssemblyInfo.cs
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\Programando.CSharp.Delegate.csproj.CoreCompileInputs.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\Programando.CSharp.Delegate.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\refint\Programando.CSharp.Delegate.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\Programando.CSharp.Delegate.pdb
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\Programando.CSharp.Delegate.genruntimeconfig.cache
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.Delegate\obj\Debug\net7.0\ref\Programando.CSharp.Delegate.dll

@@ -275,3 +275,6 @@ C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.W
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.WebAPI1\obj\Debug\net7.0\Programando.CSharp.WebAPI1.pdb
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.WebAPI1\obj\Debug\net7.0\Programando.CSharp.WebAPI1.genruntimeconfig.cache
 C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.WebAPI1\obj\Debug\net7.0\ref\Programando.CSharp.WebAPI1.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.WebAPI1\bin\Debug\net7.0\appsetting.Development.json
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.WebAPI1\bin\Debug\net7.0\System.Net.Http.Formatting.dll
+C:\Users\Inés\Cloud_eoi\Desarrollo_Cloud_C_Sharp\Formacion\Programando.CSharp.WebAPI1\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll

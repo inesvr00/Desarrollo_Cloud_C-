@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programando.CSharp.ConsoleH
 		{B1334FEE-5607-4E42-ACAE-89E999EE7702} = {B1334FEE-5607-4E42-ACAE-89E999EE7702}
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programando.CSharp.Herencia", "Programando.CSharp.Herencia\Programando.CSharp.Herencia.csproj", "{7CA6CA28-5142-4EFB-9FC3-EFD2B4ED457E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programando.CSharp.Delegate", "Programando.CSharp.Delegate\Programando.CSharp.Delegate.csproj", "{5271D685-09C0-496D-9F41-20A7E94D7EC3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,14 @@ Global
 		{C5538ED7-0247-4647-9D98-F9200EE52683}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5538ED7-0247-4647-9D98-F9200EE52683}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5538ED7-0247-4647-9D98-F9200EE52683}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CA6CA28-5142-4EFB-9FC3-EFD2B4ED457E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CA6CA28-5142-4EFB-9FC3-EFD2B4ED457E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CA6CA28-5142-4EFB-9FC3-EFD2B4ED457E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CA6CA28-5142-4EFB-9FC3-EFD2B4ED457E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5271D685-09C0-496D-9F41-20A7E94D7EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5271D685-09C0-496D-9F41-20A7E94D7EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5271D685-09C0-496D-9F41-20A7E94D7EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5271D685-09C0-496D-9F41-20A7E94D7EC3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
